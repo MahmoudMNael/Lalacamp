@@ -1,0 +1,14 @@
+<%- include("../partials/header") %>
+
+<div class="newCamp">
+	<div class="inner-width">
+		<h1>Add a new comment to <strong><%= campground.name %></strong></h1>
+		<form action="/campgrounds/<%= campground._id %>/comments" method="POST">
+			<textarea rows="2" placeholder="Your Comment" class="body" name="comment[text]"></textarea>
+			<button>Submit</button>
+		</form>
+		<a href="/campgrounds/<%= campground._id %>" class="back">Go Back</a>
+	</div>
+</div>
+
+<%- include("../partials/footer") %>

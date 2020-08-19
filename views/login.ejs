@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+<div class="newCamp">
+	<div class="inner-width">
+		<h1>Login</h1>
+		<div class="inner-width-register">
+			<form action="/login" method="POST">
+				<input placeholder="Username" class="username" type="text" name="username">
+				<input type="password" placeholder="Password" class="password" name="password" minlength="8" maxlength="16">
+				<button>Login</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<%- include("partials/footer") %>
