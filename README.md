@@ -6,7 +6,7 @@
 <li>Simply run &nbsp; <code>node app.js</code></li>
 <br>
 <h2><u>Project URL</u></h2>
-<a href='https://lalacamp.herokuapp.com'>Lalacamp</a>
+<a href='https://lalacamp.herokuapp.com' target='_blank'>Lalacamp</a>
 <br>
 <h2><u>Authors</u></h2>
 <li>Mahmoud Mohammed Nael</li>
